@@ -96,7 +96,7 @@ header{
 
 header img{
     display: grid;
-    width: 300px;
+    width: 350px;
     height: 100%;
     object-fit: cover;
     grid-column-start: 6;
@@ -331,6 +331,7 @@ footer h5{
         font-size: 20px;
         font-weight: 600;
         margin-left: 40px;
+        padding-bottom: 100px;
     }
 
     aside h2{
@@ -348,7 +349,9 @@ footer h5{
     footer{
         display: flex;
         flex-direction: column;
-        padding-top: 100;
+        padding-top: 100px;
+        margin-top: 50px;
+
     }
 
 .footer-section{
