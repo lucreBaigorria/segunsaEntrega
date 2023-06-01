@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Etheral ;
+    src: url("../fonts/Ethereal-Thin.otf");
+}
+
+@font-face {
+    font-family: Designer;
+    src: url("../fonts/Forque.ttf");
+}
+
+
+h1{
+    font-family: Designer;
+    color: rgba(0, 0, 0, 0.58);
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: rgba(59, 53, 240, 0.719);
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 30px;
+    font-weight: 100;
+    padding-right: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: 100;
+    font-weight: 600;
+}
+
+.menu li{
+    list-style: none;
+    font-weight: 100;
+    font-weight: 600;
+}
