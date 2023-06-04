@@ -1,73 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ver planes</title>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/stylePlanes.css">
 </head>
     <body>
-        <header>
-            <section>
-                <nav class="navbar">
-                    <a href="../index.html"><h1>INSURE</h1></a>
-                        <ul class="menu">
-                            <li><a href="">COMO TRABAJAMOS</a></li>
-                            <li><a href="">BLOG</a></li>
-                            <li><a href="">MI ACCOUNT</a></li>
-                            <li><a href="">VER PLANES</a></li>
-                        </ul>
+        <header class="container-fluid ">
+            <div >
+                <nav >
+                <a href="../index.html"><h1>INSURE</h1></a>
+                    <ul>
+                        <li><a href="">COMO TRABAJAMOS</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">MI ACCOUNT</a></li>
+                        <li><a href="">VER PLANES</a></li>
+                    </ul>
                 </nav>
-                </section>
+            </div>
         </header>
-        <main>
+        <main class="container-fluid">
             <h2>Los planes que tenemos para ofrecerte!</h2>
-            <section>
-                <div>
-                    <img src="../assets/img/planes-mama.jpg" alt="">
+            <section class="row">
+                <div class="col">
+                    <img src="../assets/img/planes-mama.jpg" class="object-fit-contain border rounded" alt="">
                     <a href=""><h4>plan maternal</h4></a>
                 </div>
-                <div>
-                    <img src="../assets/img/planes-niños.jpg" alt="">
+                <div class="col">
+                    <img src="../assets/img/planes-nya.jpg" class="object-fit-scale border rounded" alt="">
                     <a href=""><h4>plan niños y adolescentes</h4></a>
                 </div>
-                <div>
+                <div class="col">
                     <img src="../assets/img/planes-jubilados.jpg" alt="">
                     <a href=""><h4>plan jubilados y over sesenta</h4></a>
                 </div>
             </section>
         </main>
-        <footer>
-            <section class="footer-section">
-                <div>
+        <footer class="container-fluid">
+            <section class="row">
+                <div class="col">
                 <h4>INSURE</h4>
                 </div>
-                <div> 
+                <div class="col"> 
                     <h5>Nuestra compañia</h5>
                     <p>como trabajamos</p>
                     <p>porque tener un seguro</p>
                     <p>ver planes</p>
                     <p>reseñas</p>
                 </div>
-                <div>
+                <div class="col">
                     <h5>Asistencia</h5>
                     <p>politica de privacidad</p>
                     <p>terminos de uso</p>
                     <p>cookies</p>
                 </div>
-                <div>
+                <div class="col">
                     <h5>Contactos</h5>
                     <p>telefono</p>
                     <p>suporte</p>
                     <p>chat con un operador</p>
                 </div>
-                <div>
+                <div class="col">
                     <h5>Otros</h5>
                     <p>licencias</p>
                     <p>prensa</p>
                 </div>
             </section>
         </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>
